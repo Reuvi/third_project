@@ -1,0 +1,9 @@
+When macking a level you need some sort of layout to create a level
+A level map is essentially a design of what the level would look likes
+- Y axis is indexes in the list
+- x Axis is indexes of the strings from that list
+import other files to be used with * to get everything
+pygame.Surface() is like a display surface but its not the main one so you can basically make dumb models with it for testing
+
+We are setting up the level data by creating a false map first in a list of strings and then
+looping through said list for everyone colum and then looping through every piece in string to get every cell
