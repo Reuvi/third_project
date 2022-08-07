@@ -7,3 +7,8 @@ pygame.Surface() is like a display surface but its not the main one so you can b
 
 We are setting up the level data by creating a false map first in a list of strings and then
 looping through said list for everyone colum and then looping through every piece in string to get every cell
+
+Okay so basicaly we make level map and make player movement with vectors
+vectors are bvetter for moving player cords
+we then move the world if player gets to close to border of radius
+also we have it where it could fit any sized screen_width
